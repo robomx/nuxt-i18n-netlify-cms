@@ -57,7 +57,7 @@ yarn add @nuxt/i18n-netlify-cms # or npm install @nuxt/i18n-netlify-cms
 
 [MIT License](./LICENSE)
 
-Copyright (c) RoboMX <ask@robomx.tech>
+Copyright (c) RoboMx <ask@robomx.tech>
 
 
 <!-- Badges -->

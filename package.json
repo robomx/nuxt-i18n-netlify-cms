@@ -18,7 +18,9 @@
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-prettier": "^3.2.0"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
@@ -29,6 +31,8 @@
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "eslint": "latest",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-nuxt": "^2.0.0",
     "husky": "latest",
     "jest": "latest",
     "nuxt-edge": "latest",

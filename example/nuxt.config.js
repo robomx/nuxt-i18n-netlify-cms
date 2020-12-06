@@ -1,10 +1,6 @@
-const { resolve } = require('path')
+import { resolve } from 'path'
 
-module.exports = {
-  rootDir: resolve(__dirname, '..'),
-  buildDir: resolve(__dirname, '.nuxt'),
-  srcDir: __dirname,
-  modules: [
-    { handler: require('../') }
-  ]
-}
+export const rootDir = resolve(__dirname, '..')
+export const buildDir = resolve(__dirname, '.nuxt')
+export const srcDir = __dirname
+export const modules = [{ handler: require('../') }]
