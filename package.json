@@ -1,37 +1,40 @@
 {
-  "name": "nuxt-i18n-netlify-cms-example",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@nuxtjs/i18n-netlify-cms",
+  "version": "2020.0.0",
+  "description": "Create admin panel to manage i18n content using Netlify CMS",
+  "repository": "robomx/nuxt-18n-netlify-cms",
+  "license": "MIT",
+  "contributors": [
+    "Mexson Fernandes <robomex2020@gmail.com>",
+    "Ansh Cena <anshcena.1996@gmail.com>"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
-    "lint": "yarn lint:js && yarn lint:style"
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
-    "nuxt-i18n": "^6.15.4"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@nuxtjs/eslint-config": "^3.1.0",
-    "@nuxtjs/eslint-module": "^2.0.0",
-    "@nuxtjs/stylelint-module": "^4.0.0",
-    "@nuxtjs/tailwindcss": "^3.1.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.10.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "netlify-cms-proxy-server": "^1.3.7",
-    "prettier": "^2.1.2",
-    "stylelint": "^13.7.2",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^20.0.0"
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
