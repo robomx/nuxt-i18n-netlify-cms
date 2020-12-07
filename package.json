@@ -19,7 +19,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "eslint-plugin-prettier": "^3.2.0"
+    "nuxt-i18n": "latest"
   },
   "devDependencies": {
     "@babel/core": "latest",
@@ -31,10 +31,12 @@
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "eslint": "latest",
-    "eslint-config-prettier": "^7.0.0",
-    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-nuxt": "latest",
+    "eslint-plugin-prettier": "latest",
     "husky": "latest",
     "jest": "latest",
+    "netlify-cms-proxy-server": "latest",
     "nuxt-edge": "latest",
     "standard-version": "latest"
   },

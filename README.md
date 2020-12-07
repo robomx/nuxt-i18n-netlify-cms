@@ -1,6 +1,6 @@
 <div align="center">
   <img src ="https://github.com/anshcena/my-image-hosting-spot/blob/main/IMAGE_DIR/@nuxtjsi18n-netlify-cms.png?raw=true" width="1000" />
-  </div>
+</div>
 
 # Nuxt i18n Netlify CMS Module
 
@@ -43,7 +43,6 @@ yarn add @nuxt/i18n-netlify-cms # or npm install @nuxt/i18n-netlify-cms
 2. Install dependencies using `yarn install` or `npm install`
 3. Start development server using `npm run dev`
 
-
 ## Screenshot
 
 <img src="static/i18n-content.jpeg" alt="i18n content manage" width="600px">
@@ -58,7 +57,6 @@ yarn add @nuxt/i18n-netlify-cms # or npm install @nuxt/i18n-netlify-cms
 [MIT License](./LICENSE)
 
 Copyright (c) RoboMx <ask@robomx.tech>
-
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@nuxt/i18n-netlify-cms/latest.svg
