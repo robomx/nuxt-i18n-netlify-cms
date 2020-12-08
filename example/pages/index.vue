@@ -1,5 +1,7 @@
 <template>
-  <div>Works!</div>
+  <div>
+    {{ $t('message') }}
+  </div>
 </template>
 
 <script>

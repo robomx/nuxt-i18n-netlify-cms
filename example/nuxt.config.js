@@ -28,5 +28,13 @@ export const i18n = {
       name: 'Français'
     }
   ],
-  vueI18n: {}
+  vueI18n: {
+    locale: 'en',
+    fallbackLocale: 'de',
+    messages: {
+      en: {
+        message: 'e'
+      }
+    }
+  }
 }
