@@ -33,7 +33,10 @@ export const i18n = {
     fallbackLocale: 'de',
     messages: {
       en: {
-        message: 'e'
+        message: 'works'
+      },
+      fr: {
+        message: 'le travail'
       }
     }
   }
