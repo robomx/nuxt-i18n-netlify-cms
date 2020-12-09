@@ -8,12 +8,13 @@ export const modules = [{ handler: require('../') }]
 export const i18n = {
   netlifyCms: {
     proxy: true,
-    route: 'admin',
-    title: 'i18n Content Management',
+    route: 'i18n',
     config: {
+      title: 'i18n Content Management',
       publish_mode: 'editorial_workflow',
       media_folder: 'static/i18n/images',
-      public_folder: '/i18n/images'
+      public_folder: '/i18n/images',
+      open_authoring: true
     }
   },
   defaultLocale: 'en',
