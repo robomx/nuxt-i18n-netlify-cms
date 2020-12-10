@@ -1,9 +1,10 @@
 {
-  "name": "@nuxtjs/i18n-netlify-cms",
+  "name": "nuxt-i18n-netlify-cms",
   "version": "2020.0.0",
   "description": "Create admin panel to manage i18n content using Netlify CMS",
-  "repository": "robomx/nuxt-18n-netlify-cms",
+  "repository": "https://github.com/robomx/nuxt-18n-netlify-cms",
   "license": "MIT",
+  "author": "RoboMx",
   "contributors": [
     "Mexson Fernandes <robomex2020@gmail.com>",
     "Ansh Cena <anshcena.1996@gmail.com>"
@@ -18,8 +19,15 @@
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
   },
+  "keywords": [
+    "netlify cms i18n",
+    "nuxt i18n manage",
+    "i18n content management"
+  ],
   "dependencies": {
-    "nuxt-i18n": "latest"
+    "netlify-cms-proxy-server": "latest",
+    "nuxt-i18n": "latest",
+    "require-context": "latest"
   },
   "devDependencies": {
     "@babel/core": "latest",
@@ -36,12 +44,11 @@
     "eslint-plugin-prettier": "latest",
     "husky": "latest",
     "jest": "latest",
-    "netlify-cms-proxy-server": "latest",
     "nuxt-edge": "latest",
-    "require-context": "^1.1.0",
     "standard-version": "latest"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }

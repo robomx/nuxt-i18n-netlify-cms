@@ -17,24 +17,46 @@
 
 ## Setup
 
-1. Add `@nuxt/i18n-netlify-cms` dependency to your project
+1. Add `nuxt-i18n-netlify-cms` dependency to your project
 
 ```bash
-yarn add @nuxt/i18n-netlify-cms # or npm install @nuxt/i18n-netlify-cms
+yarn add nuxt-i18n-netlify-cms # or npm install nuxt-i18n-netlify-cms
 ```
 
-2. Add `@nuxt/i18n-netlify-cms` to the `modules` section of `nuxt.config.js`
+2. Add `nuxt-i18n-netlify-cms` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    '@nuxt/i18n-netlify-cms',
+    'nuxt-i18n-netlify-cms',
 
     // With options
-    ['@nuxt/i18n-netlify-cms', { /* module options */ }]
+    ['nuxt-i18n-netlify-cms', { /* module options */ }]
   ]
 }
+```
+
+## Module Options
+
+```
+...
+  i18n: {
+    ...
+    netlifyCms: {
+      proxy: true,
+      route: "i18n",
+      config: {
+        title: "i18n Content Management",
+        publish_mode: "editorial_workflow",
+        media_folder: "static/i18n/images",
+        public_folder: "/i18n/images",
+        open_authoring: true
+      }
+    }
+    ...
+  },
+...
 ```
 
 ## Development
@@ -59,11 +81,11 @@ yarn add @nuxt/i18n-netlify-cms # or npm install @nuxt/i18n-netlify-cms
 Copyright (c) RoboMx <ask@robomx.tech>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt/i18n-netlify-cms/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxt/i18n-netlify-cms
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-i18n-netlify-cms/latest.svg
+[npm-version-href]: https://npmjs.com/package/nuxt-i18n-netlify-cms
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxt/i18n-netlify-cms.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxt/i18n-netlify-cms
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-i18n-netlify-cms.svg
+[npm-downloads-href]: https://npmjs.com/package/nuxt-i18n-netlify-cms
 
 [github-actions-ci-src]: https://github.com/robomx/nuxt-18n-netlify-cms/workflows/ci/badge.svg
 [github-actions-ci-href]: https://github.com/robomx/nuxt-18n-netlify-cms/actions?query=workflow%3Aci
@@ -71,5 +93,5 @@ Copyright (c) RoboMx <ask@robomx.tech>
 [codecov-src]: https://img.shields.io/codecov/c/github/robomx/nuxt-18n-netlify-cms.svg
 [codecov-href]: https://codecov.io/gh/robomx/nuxt-18n-netlify-cms
 
-[license-src]: https://img.shields.io/npm/l/@nuxt/i18n-netlify-cms.svg
-[license-href]: https://npmjs.com/package/@nuxt/i18n-netlify-cms
+[license-src]: https://img.shields.io/npm/l/nuxt-i18n-netlify-cms.svg
+[license-href]: https://npmjs.com/package/nuxt-i18n-netlify-cms
