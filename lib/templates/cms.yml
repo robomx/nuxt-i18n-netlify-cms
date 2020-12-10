@@ -23,7 +23,7 @@ i18n:
 collections:
   - name: page
     label: Pages
-    folder: locales/
+    folder: locales
     create: true
     extension: json
     i18n: true

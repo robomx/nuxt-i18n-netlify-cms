@@ -31,14 +31,6 @@ export const i18n = {
   ],
   vueI18n: {
     locale: 'en',
-    fallbackLocale: 'de',
-    messages: {
-      en: {
-        message: 'works'
-      },
-      fr: {
-        message: 'le travail'
-      }
-    }
+    fallbackLocale: 'en'
   }
 }
