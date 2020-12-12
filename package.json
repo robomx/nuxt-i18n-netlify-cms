@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-i18n-netlify-cms",
+  "name": "@robomx/nuxt-i18n-netlify-cms",
   "version": "2020.0.0",
   "description": "Create admin panel to manage i18n content using Netlify CMS",
   "repository": "https://github.com/robomx/nuxt-18n-netlify-cms",
