@@ -1,5 +1,5 @@
 <div align="center">
-  <img src ="https://github.com/anshcena/my-image-hosting-spot/blob/main/IMAGE_DIR/@robomx_nuxtjs-18n-netlify-cms.png?raw=true" width="1000" />
+  <img src ="https://github.com/anshcena/my-image-hosting-spot/blob/main/IMAGE_DIR/@robomx_nuxt-18n-netlify-cms.png?raw=true" width="1000" />
 </div>
 
 # Nuxt i18n Netlify CMS Module
@@ -93,5 +93,5 @@ Copyright (c) RoboMx <ask@robomx.tech>
 [codecov-src]: https://img.shields.io/codecov/c/github/robomx/nuxt-18n-netlify-cms.svg
 [codecov-href]: https://codecov.io/gh/robomx/nuxt-18n-netlify-cms
 
-[license-src]: https://img.shields.io/npm/l/@robomx/nuxt-i18n-netlify-cms.svg
-[license-href]: https://npmjs.com/package/@robomx/nuxt-i18n-netlify-cms
+[license-src]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-href]: https://github.com/RoboMx/nuxt-i18n-netlify-cms
