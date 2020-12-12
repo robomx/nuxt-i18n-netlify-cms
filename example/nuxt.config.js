@@ -8,7 +8,7 @@ export const modules = [{ handler: require('../') }]
 export const i18n = {
   netlifyCms: {
     proxy: true,
-    route: 'i18n',
+    route: 'i18nadmin',
     config: {
       title: 'i18n Content Management',
       publish_mode: 'editorial_workflow',

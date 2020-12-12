@@ -67,7 +67,7 @@ yarn add @robomx/nuxt-i18n-netlify-cms # or npm install @robomx/nuxt-i18n-netlif
 
 ## Screenshot
 
-<img src="static/i18n-content.jpeg" alt="i18n content manage" width="600px">
+<img src="screenshot.png" alt="i18n content manage" width="600px">
 
 ## References
 
