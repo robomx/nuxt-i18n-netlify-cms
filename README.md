@@ -87,7 +87,7 @@ Copyright (c) RoboMx <ask@robomx.tech>
 [npm-downloads-src]: https://img.shields.io/npm/dt/@robomx/nuxt-i18n-netlify-cms.svg
 [npm-downloads-href]: https://npmjs.com/package/@robomx/nuxt-i18n-netlify-cms
 
-[github-actions-ci-src]: https://github.com/robomx/nuxt-18n-netlify-cms/workflows/ci/badge.svg
+[github-actions-ci-src]: https://github.com/RoboMx/nuxt-i18n-netlify-cms/workflows/ci/badge.svg
 [github-actions-ci-href]: https://github.com/robomx/nuxt-18n-netlify-cms/actions?query=workflow%3Aci
 
 [codecov-src]: https://img.shields.io/codecov/c/github/robomx/nuxt-18n-netlify-cms.svg
